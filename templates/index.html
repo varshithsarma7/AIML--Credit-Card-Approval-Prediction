@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Card Approval Prediction</title>
+
+    <style>
+
+        body{
+            font-family:Arial, sans-serif;
+            background:#f2f2f2;
+            margin:0;
+            padding:0;
+        }
+
+        .container{
+
+            width:600px;
+            margin:40px auto;
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0px 0px 10px gray;
+
+        }
+
+        h1{
+
+            text-align:center;
+            color:#003366;
+
+        }
+
+        input,select{
+
+            width:100%;
+            padding:10px;
+            margin-top:10px;
+            margin-bottom:15px;
+
+        }
+
+        input[type=submit]{
+
+            background:#003366;
+            color:white;
+            border:none;
+            cursor:pointer;
+            font-size:16px;
+
+        }
+
+        input[type=submit]:hover{
+
+            background:#0055aa;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Credit Card Approval Prediction</h1>
+
+<form action="/predict" method="POST">
+
+<input type="number" name="income" placeholder="Annual Income" required>
+
+<input type="number" name="children" placeholder="Number of Children" required>
+
+<input type="number" name="family" placeholder="Family Members" required>
+
+<select name="gender">
+
+<option value="M">Male</option>
+
+<option value="F">Female</option>
+
+</select>
+
+<select name="car">
+
+<option value="Y">Own Car</option>
+
+<option value="N">No Car</option>
+
+</select>
+
+<select name="house">
+
+<option value="Y">Own House</option>
+
+<option value="N">No House</option>
+
+</select>
+
+<input type="submit" value="Predict">
+
+</form>
+
+</div>
+
+</body>
+
+</html>
