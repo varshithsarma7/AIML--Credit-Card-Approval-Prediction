@@ -204,17 +204,3 @@ This project is intended for educational and internship purposes.
 ## ⭐ Team
 
 Developed as part of the **APSCHE AI & ML Virtual Internship** by **Team Credit Card Approval Prediction**.
-
-
-
-# Dataset
-
-The dataset is not included in this repository because of GitHub file size limitations.
-
-Download the dataset from:
-https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
-
-Place the following files inside a folder named `Dataset` before running the project:
-
-- application_record.csv
-- credit_record.csv
